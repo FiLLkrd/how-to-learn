@@ -1,10 +1,13 @@
 .footer {
-    min-height: 350px;
-    background-color: #1f1f1f;
-    background-size: cover;
-    color: white;
-    box-sizing: border-box;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    display: flex;
-  }
+  min-height: 350px;
+  background-color: #1f1f1f;
+  background-size: cover;
+  color: white;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

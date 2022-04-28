@@ -1,11 +1,13 @@
 .header__link {
-    color: #2f80ed;
-    text-decoration: none;
-    z-index: 6;
-  }
+  color: #2f80ed;
+  text-decoration: none;
+  z-index: 6;
+}
 
-  .header__link:hover{
-    opacity: 0.5;
-    visibility: hidden;
-    transition: opacity 0.5s, visibility 1s linear 0.3s;
-  }
+.header__link:hover {
+  opacity: 0.5;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 1s linear 0.3s;
+  -o-transition: opacity 0.5s, visibility 1s linear 0.3s;
+  transition: opacity 0.5s, visibility 1s linear 0.3s;
+}

@@ -1,8 +1,13 @@
-.video__iframes{
-    margin: 0;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    margin-bottom: -50px;
-  }
+.video__iframes {
+  margin: 0;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  list-style: none;
+  margin-bottom: -50px;
+}

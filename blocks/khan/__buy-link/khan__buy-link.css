@@ -1,15 +1,17 @@
-.khan__buy-link{
-    height: 608px;
-    line-height: 42px;
-    font-size: 30px;
-    font-weight: normal;
-    z-index: 0;
-    color: #2f80ed;
-    text-decoration: none;
-  }
+.khan__buy-link {
+  height: 608px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  z-index: 0;
+  color: #2f80ed;
+  text-decoration: none;
+}
 
-  .khan__buy-link:hover{
-    opacity: 0.5;
-    visibility: hidden;
-    transition: opacity 0.5s, visibility 1s linear 0.3s;
-  }
+.khan__buy-link:hover {
+  opacity: 0.5;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 1s linear 0.3s;
+  -o-transition: opacity 0.5s, visibility 1s linear 0.3s;
+  transition: opacity 0.5s, visibility 1s linear 0.3s;
+}

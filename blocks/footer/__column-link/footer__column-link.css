@@ -1,10 +1,12 @@
 .footer__column-link {
-    color: white;
-    text-decoration: none;
-  }
+  color: white;
+  text-decoration: none;
+}
 
-  .footer__column-link:hover{
-    opacity: 0.5;
-    visibility: hidden;
-    transition: opacity 0.5s, visibility 1s linear 0.3s;
-  }
+.footer__column-link:hover {
+  opacity: 0.5;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 1s linear 0.3s;
+  -o-transition: opacity 0.5s, visibility 1s linear 0.3s;
+  transition: opacity 0.5s, visibility 1s linear 0.3s;
+}
