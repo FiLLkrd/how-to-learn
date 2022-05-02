@@ -1,0 +1,12 @@
+.cards {
+  margin: 0;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 100px 1fr 100px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 100px;
+  padding: 0;
+  width: 920px;
+}

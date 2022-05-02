@@ -1,6 +1,7 @@
 .techniques {
   margin: 100px auto 0 auto;
   width: 1100px;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
